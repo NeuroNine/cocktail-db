@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/NeuroNine/cocktail-db/issues"
   },
-  "homepage": "https://github.com/NeuroNine/cocktail-db#readme"
+  "homepage": "https://github.com/NeuroNine/cocktail-db#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
