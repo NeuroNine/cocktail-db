@@ -1,0 +1,19 @@
+{
+  "name": "cocktail-db",
+  "version": "1.0.0",
+  "description": "An application to keep track of cocktail recipes, add recipes, and put in orders.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NeuroNine/cocktail-db.git"
+  },
+  "author": "NeuroNine",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NeuroNine/cocktail-db/issues"
+  },
+  "homepage": "https://github.com/NeuroNine/cocktail-db#readme"
+}
