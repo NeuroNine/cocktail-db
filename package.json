@@ -1,10 +1,9 @@
 {
   "name": "cocktail-db",
-  "version": "1.0.0",
-  "description": "An application to keep track of cocktail recipes, add recipes, and put in orders.",
-  "main": "app.js",
+  "version": "0.0.1-SNAPSHOT",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./bin/www"
   },
   "repository": {
     "type": "git",
@@ -15,8 +14,12 @@
   "bugs": {
     "url": "https://github.com/NeuroNine/cocktail-db/issues"
   },
-  "homepage": "https://github.com/NeuroNine/cocktail-db#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.17.1",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1",
+    "pug": "^3.0.2"
   }
 }
